@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Rails assets reload check",
+			"type": "shell",
+			"command": "bin/rails runner 'puts \"assets ready\"'",
+			"problemMatcher": [
+				"$eslint-stylish"
+			]
+		}
+	]
+}
