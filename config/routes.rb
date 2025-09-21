@@ -12,5 +12,6 @@ resources :products
   # get "service-worker" => "rails/pwa#service_worker", as: :pwa_service_worker
 
   # Defines the root path route ("/")
-  # root "posts#index"
+root "products#index"
+
 end
